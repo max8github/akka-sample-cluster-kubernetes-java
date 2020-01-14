@@ -27,3 +27,6 @@ Then akka-cluster.yml should be sufficient to deploy a 2-node Akka Cluster:
 This example uses [Akka Cluster Bootstrap](https://developer.lightbend.com/docs/akka-management/current/bootstrap/index.html)
 to initialize the cluster, using the [Kubernetes API discovery mechanism](https://developer.lightbend.com/docs/akka-management/current/discovery/index.html#discovery-method-kubernetes-api)
 to find peer nodes.
+
+# Scala Version
+The Scala version of this code is in github at [akka-sample-cluster-kubernetes-scala](https://github.com/akka/akka-sample-cluster-kubernetes-scala) and downloadable at lightbend at [akka-sample-cluster-kubernetes-scala](https://developer.lightbend.com/start/?group=akka&project=akka-sample-cluster-kubernetes-scala)
